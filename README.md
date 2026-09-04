@@ -8,7 +8,7 @@ Um servidor MCP é só um processo Python que fala o protocolo MCP (via stdio ou
 
 ```
 src/mcp_financial/
-├── server.py           # entrypoint MCP: registra as tools (FastMCP)
+├── server.py           # entrypoint MCP: registra as tools (MCPServer)
 ├── models.py            # validação de input com Pydantic
 ├── data.py               # wrapper do yfinance: cache + tratamento de erro
 ├── metrics.py           # cálculos financeiros puros (testáveis sem rede)
