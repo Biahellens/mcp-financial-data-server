@@ -2,6 +2,8 @@
 
 Um servidor [MCP](https://modelcontextprotocol.io) que expõe ferramentas para consultar cotações e calcular métricas de risco/retorno de carteiras (retorno acumulado, volatilidade anualizada, Sharpe, máximo drawdown). Plugável direto no Claude Desktop, Claude Code ou qualquer outro cliente MCP.
 
+![Servidor conectado no MCP Inspector](tela-mcp.png)
+
 ## Arquitetura
 
 Um servidor MCP é só um processo Python que fala o protocolo MCP (via stdio ou HTTP) e expõe um punhado de *tools* — funções com schema de input bem definido — que qualquer cliente MCP pode chamar. O servidor não tem interface própria; o cliente (Claude, por exemplo) decide quando invocar cada tool com base na docstring e no schema.
