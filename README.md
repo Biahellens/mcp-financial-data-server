@@ -2,6 +2,9 @@
 
 Um servidor [MCP](https://modelcontextprotocol.io) que expõe ferramentas para consultar cotações e calcular métricas de risco/retorno de carteiras (retorno acumulado, volatilidade anualizada, Sharpe, máximo drawdown). Plugável direto no Claude Desktop, Claude Code ou qualquer outro cliente MCP.
 
+![mcp-financial-data](https://github.com/Biahellens/mcp-financial-data-server/blob/main/tela-mcp.png)
+
+
 ![Servidor conectado no MCP Inspector](tela-mcp.png)
 
 ## Arquitetura
